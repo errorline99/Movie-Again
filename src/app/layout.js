@@ -21,11 +21,8 @@ export default function RootLayout({ children }) {
             <h1>Enjoy Movies</h1>
           </div>
           <div className="menu-items">
-            <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/new">Rated</a></li>
               <li><a href="/search">Browse</a></li>
-            </ul>
           </div>
         </div>
       </div>
