@@ -8,7 +8,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="yep">
 
-      <Link href="/new"></Link>
       <nav>
       <div className="navbar">
         <div className="container nav-container">
@@ -23,9 +22,9 @@ export default function RootLayout({ children }) {
           </div>
           <div className="menu-items">
             <ul>
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/new">Rated</Link></li>
-              <li><Link href="/search">Browse</Link></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/new">Rated</a></li>
+              <li><a href="/search">Browse</a></li>
             </ul>
           </div>
         </div>
