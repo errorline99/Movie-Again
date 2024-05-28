@@ -7,6 +7,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="yep">
+
+      <Link href="/new"></Link>
       <nav>
       <div className="navbar">
         <div className="container nav-container">
