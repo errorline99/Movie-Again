@@ -7,6 +7,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="yep">
+      <h1 style={{fontFamily: "fantasy", fontWeight: "bold", fontSize: "900px"}}> <Link href="/new"></Link></h1>
 
       <nav>
       <div className="navbar">
