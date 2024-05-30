@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
         <div className="container nav-container">
             <input className="checkbox" type="checkbox" name="" id="" />
             <div className="hamburger-lines">
-            <li><Link><a href="/">Home</a></Link></li>
-            <li><Link><a href="/new">sda</a></Link></li>
-            <li><Link><a href="/search">search</a></Link></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/new">Rated</Link></li>
+              <li><Link href="/search">Browse</Link></li>
             </div>  
           <div className="logo">
             <h1>Enjoy Movies</h1>
