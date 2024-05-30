@@ -7,9 +7,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="yep">
-      <h1 style={{fontFamily: "fantasy", fontWeight: "bold", fontSize: "300px"}}> <Link href="/new">New</Link></h1>
+      <h1 style={{fontFamily: "fantasy", fontWeight: "bold", fontSize: "300px"}}> <Link href="/">New</Link></h1>
       <h1 style={{fontFamily: "fantasy", fontWeight: "bold", fontSize: "300px"}}> <Link href="/new">home</Link></h1>
-      <h1 style={{fontFamily: "fantasy", fontWeight: "bold", fontSize: "300px"}}> <Link href="/new">search</Link></h1>
+      <h1 style={{fontFamily: "fantasy", fontWeight: "bold", fontSize: "300px"}}> <Link href="/search">search</Link></h1>
 
       <nav>
       <div className="navbar">
