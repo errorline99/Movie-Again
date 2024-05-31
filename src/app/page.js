@@ -1,5 +1,5 @@
 import Gone from './api';
-
+import './Gone.css'
 
 
 
