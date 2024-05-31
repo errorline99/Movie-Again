@@ -48,7 +48,7 @@ export default async function  Home  (req, res) {
  var cool = await mostPopular()
 
   return (<div >
-    <Gone image={cool[0]} code={cool[1]} titles={cool[2]} summa={cool[3]} />
+    <Gone />
   </div>);
 }
 
