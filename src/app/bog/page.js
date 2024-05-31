@@ -78,6 +78,18 @@ const weekRated = async () => {
 
 export default async function top(props){
 var getIt = await rated()
+var getweek = await weekRated()
+var weekImgs = getweek[0]
+var weekblight = getweek[1]
+var weekTi = getweek[2]
+var lineBreak = getIt[2]
+var lineBreak2 = getIt[3]
+var lineBreak3 = getIt[4]
+var lineBreak4 = getIt[5]
+var lineBreak5 = getIt[6]
+var lineBreak6 = getIt[7]
+var score = getIt[9]
+
 
 
 
