@@ -13,7 +13,6 @@ const weekOptions = {
   headers: {
     accept: 'application/json',
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NTQ2MTI2M2ZmMzFhMGQ5ZjYzYTNjMjYzNGM4MzgxNSIsInN1YiI6IjY1YWMxNTQ4ZjI2M2JhMDBhZDg0MTBmMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FdZIljZbFmb2i6pWPRyuFqOfbVqeDsJpGZnZo_2Umkg',
-    Cache: 'no-store'
   },
 
   
@@ -89,6 +88,38 @@ var getIt = await rated()
        <div className="box-man">
           <img className="back-img" src={getIt[1]} alt={""}/>
             </div>
+       <div className="hii-con">
+              <div>
+                <h3 className="hii-cli">All time Movies</h3></div>
+            </div>
+  
+            <div className="image-flask">
+              {getIt[0].map((user, index) => <div key={index} className="image-wrapper">
+            <img className='try' id={'' +index} src={user} alt={""}/>
+            <p className="image-name"></p>
+            <div className="star-line">
+              <span className="stars"></span>
+            </div>
+
+            
+            <div>
+            </div>
+          </div>
+          )}
+            </div>
+
+            <div className="week-block">
+              <h3 className="week">Weekly Trending</h3>
+            </div>
+
+            <div className="imgae-flask-week">
+            {weekImgs.map((user, index) => <div key={index} className="image-wrapper">
+            <img className='try' id={'' +index} src={user} alt={""}/>
+            <p className="image-title"></p>
+            <div className="star-line">
+              <span className="westars"></span>
+            </div>
+          </div>
 
       </div>
     )
