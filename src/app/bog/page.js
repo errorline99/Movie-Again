@@ -79,7 +79,7 @@ const weekRated = async () => {
 
 
 export default async function top(props){
-
+var getIt = await rated()
 
 
 
@@ -92,7 +92,6 @@ export default async function top(props){
       <div className="kkl">
             <div className="box-man">
             <img className="back-img" src={getIt[1]} alt={""}/>
-            <p className="wallTitle">{lineBreak6} </p>
             </div>
             <br />
             <div className="hii-con">
