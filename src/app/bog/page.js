@@ -118,21 +118,6 @@ var score = getIt[9]
             </div>
           </div>
           )}
-            </div>
 
-            <div className="week-block">
-              <h3 className="week">Weekly Trending</h3>
-            </div>
-
-            <div className="imgae-flask-week">
-            {weekImgs.map((user, index) => <div key={index} className="image-wrapper">
-            <img className='try' id={'' +index} src={user} alt={""}/>
-            <p className="image-title"></p>
-            <div className="star-line">
-              <span className="westars"></span>
-            </div>
-          </div>
-
-      </div>
     )
 }
