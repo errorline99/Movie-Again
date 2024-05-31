@@ -55,7 +55,7 @@ const rated = async () => {
     needs[8].splice(11, 1)
     needs[8].splice(16, 1)
 
-    return backWall
+    return needs
 }
 
 
@@ -87,7 +87,7 @@ var getIt = await rated()
       <div>
       hooooooooooooo
        <div className="box-man">
-            <img className="back-img" src={getIt} alt={""}/>
+            <img className="back-img" src={getIt[1} alt={""}/>
             </div>
 
       </div>
