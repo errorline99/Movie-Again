@@ -87,7 +87,9 @@ var getIt = await rated()
     return(
       <div>
       hooooooooooooo
-
+       <div className="box-man">
+            <img className="back-img" src={getIt[1]} alt={""}/>
+            </div>
 
       </div>
     )
