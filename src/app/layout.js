@@ -1,4 +1,5 @@
  import Link from 'next/link';
+import './Gone.css'
 export const runtime = 'edge';
 
 
