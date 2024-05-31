@@ -1,7 +1,6 @@
 "use client"
 import React from "react"
 import {useEffect} from "react";
-import {vv} from './api'
 
 
 
@@ -34,7 +33,7 @@ export default function Uses(props) {
   
 
     return(<>
-    <button type="button" className="button-27" onClick={vv} >{"<>"}</button>
+    <button type="button" className="button-27" >{"<>"}</button>
     </>
     )
    
