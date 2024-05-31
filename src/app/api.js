@@ -12,12 +12,9 @@ export default async function Gone(props) {
 
 
   return (
-    <div className="gone-container">
-
-      </div>
-      <Client />
+    <div>
+    hii
     </div>
-    
   );
  
 }
