@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
             <input className="checkbox" type="checkbox" name="" id="" />
             <div className="hamburger-lines">
               <li><Link href="/">Home</Link></li>
-              <li><Link href="/new">Rated</Link></li>
+              <li><Link href="/bog">Rated</Link></li>
               <li><Link href="/search">Browse</Link></li>
             </div>  
           <div className="logo">
