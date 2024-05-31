@@ -95,17 +95,18 @@ var score = getIt[9]
 
 
     return(
-      <div>
-      hooooooooooooo
-       <div className="box-man">
-          <img className="back-img" src={getIt[1]} alt={""}/>
+        <div className="kkl">
+            <div className="box-man">
+            <img className="back-img" src={getIt[1]} alt={""}/>
+            <p className="wallTitle">{lineBreak6} </p>
             </div>
-       <div className="hii-con">
+            <br />
+            <div className="hii-con">
               <div>
                 <h3 className="hii-cli">All time Movies</h3></div>
             </div>
   
-          <div className="image-flask">
+            <div className="image-flask">
               {getIt[0].map((user, index) => <div key={index} className="image-wrapper">
             <img className='try' id={'' +index} src={user} alt={""}/>
             <p className="image-name"></p>
@@ -120,6 +121,23 @@ var score = getIt[9]
           )}
             </div>
 
+            <div className="week-block">
+              <h3 className="week">Weekly Trending</h3>
+            </div>
+
+            <div className="imgae-flask-week">
+            {weekImgs.map((user, index) => <div key={index} className="image-wrapper">
+            <img className='try' id={'' +index} src={user} alt={""}/>
+            <p className="image-title"></p>
+            <div className="star-line">
+              <span className="westars"></span>
+            </div>
+          </div>
+          )}
+            </div>
+
+          <Cliz point={score}  name={getIt[8]} weekFlash={weekblight} weekName={weekTi}/>
+        </div>
             
             
 
