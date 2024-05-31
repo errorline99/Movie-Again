@@ -105,7 +105,7 @@ var score = getIt[9]
                 <h3 className="hii-cli">All time Movies</h3></div>
             </div>
   
-            <div className="image-flask">
+          <div className="image-flask">
               {getIt[0].map((user, index) => <div key={index} className="image-wrapper">
             <img className='try' id={'' +index} src={user} alt={""}/>
             <p className="image-name"></p>
@@ -118,6 +118,10 @@ var score = getIt[9]
             </div>
           </div>
           )}
+            </div>
+
+            
+            
 
     )
 }
