@@ -87,6 +87,19 @@ export default async function top(props){
     return(
       <div>
       hooooooooooooo
+
+
+      <div className="kkl">
+            <div className="box-man">
+            <img className="back-img" src={getIt[1]} alt={""}/>
+            <p className="wallTitle">{lineBreak6} </p>
+            </div>
+            <br />
+            <div className="hii-con">
+              <div>
+                <h3 className="hii-cli">All time Movies</h3></div>
+            </div>
+  
       </div>
     )
 }
