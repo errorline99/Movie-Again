@@ -11,7 +11,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
    <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Next.js App</title>
       </Head>
       <body className="yep">
       <nav>
@@ -35,6 +34,7 @@ export default function RootLayout({ children }) {
       </div>
     </nav>
         <main>{children}</main>
+     <NextScript />
       </body>
     </html>
   )
