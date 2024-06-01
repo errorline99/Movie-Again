@@ -1,4 +1,4 @@
-
+import { unstable_noStore as noStore } from 'next/cache';
 import Cliz from "./mainClient";
 
 
@@ -31,7 +31,7 @@ const options = {
 
 
 const rated = async () => {
-
+    noStore();
     var get = await fetch(url, options)
     var rec = await get.json()
     var bac = rec.results
@@ -76,6 +76,7 @@ const weekRated = async () => {
 
 
 export default async function top(props){
+noStore();
 var getIt = await rated()
 var getweek = await weekRated()
 var weekImgs = getweek[0]
