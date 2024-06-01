@@ -1,4 +1,3 @@
-import { Html, Head, Main, NextScript } from 'next/document';
 
 
 import Link from 'next/link';
@@ -9,9 +8,7 @@ export const runtime = 'edge';
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-   <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+
       <body className="yep">
       <nav>
       <div className="navbar">
