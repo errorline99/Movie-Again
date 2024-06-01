@@ -1,4 +1,7 @@
- import Link from 'next/link';
+import { Html, Head, Main, NextScript } from 'next/document';
+
+
+import Link from 'next/link';
 import './Gone.css'
 export const runtime = 'edge';
 
