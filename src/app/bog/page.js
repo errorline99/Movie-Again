@@ -59,6 +59,7 @@ const rated = async () => {
 
 
 const weekRated = async () => {
+  noStore();
   var weekGet = await fetch(weekApi, weekOptions)
   var weekRec = await weekGet.json()
   var want =  weekRec.results
@@ -76,7 +77,6 @@ const weekRated = async () => {
 
 
 export default async function top(props){
-noStore();
 var getIt = await rated()
 var getweek = await weekRated()
 var weekImgs = getweek[0]
