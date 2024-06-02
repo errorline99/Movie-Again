@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
       </div>
     </nav>
         <main>{children}</main>
-     <NextScript />
       </body>
     </html>
   )
